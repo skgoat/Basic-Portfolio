@@ -10,9 +10,13 @@
     position: fixed;
 
 }
+.active {
+margin-left: 200px;
+
+}
+
 
 body {
-margin-left: 200px;
 background-image: url('file:///Users/seankelly/Desktop/code/Basic-Portfolio/Assets/images/2.png')
 
 }
@@ -20,17 +24,18 @@ background-image: url('file:///Users/seankelly/Desktop/code/Basic-Portfolio/Asse
 #image {
     top: 0;
     left: 0;
-    max-width: 25px;
-    width: 25px;
     background: white;
     float: left;
 }
 
 #content {
     background: white;
-    text-align: leftb;
+    text-align: left;
     float: left;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: #777777;
 
 }
 p {
@@ -53,6 +58,7 @@ h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     position: fixed;
     float: left; 
+
 
 }
 
@@ -93,7 +99,8 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: #ffffff;
     padding: 10px;
-    float: left
+    
+    margin-left: 200px;
 }
 
 /* Create two columns that float next to eachother */
@@ -115,7 +122,7 @@ input[type=submit]:hover {
 @media screen and (max-width: 600px) {
     .column, input[type=submit] {
         width: 100%;
-        margin-top: 0;
+        margin-top: 100;
     }
 }
 
@@ -147,4 +154,21 @@ input[type=submit]:hover {
     color: white;
     float: left;
     font-family: 'Georgia', Times, Times New Roman, serif;
+}
+.bottomnav {
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    padding: 24px 32px;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top-color: #4aaaa5;
+    border-top-style: solid;
+    border-top-width: 8px;
+
+
 }
